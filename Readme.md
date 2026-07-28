@@ -1,20 +1,19 @@
 # 📸 Insta Post Project
 
-A simple Instagram-style Post Upload application built while learning Backend Development using the MERN stack.
+A full-stack Instagram-style post upload application built while learning the MERN Stack. This project focuses mainly on backend development, including image uploads, database integration, and REST APIs.
 
-> **Note:** This project was created mainly to practice backend concepts. The UI is kept minimal and was not the primary focus.
+> **Note:** The UI is intentionally kept simple because the primary goal of this project was to learn backend development.
 
 ---
 
 ## 🚀 Features
 
-- Upload an image with a post
-- Store post details in MongoDB
+- Upload Instagram-style posts
 - Image upload using ImageKit
-- REST API using Express.js
+- Store post details in MongoDB
+- REST API with Express.js
 - File upload using Multer
-- React frontend with Axios
-- MongoDB integration with Mongoose
+- React frontend with Axios integration
 
 ---
 
@@ -24,7 +23,7 @@ A simple Instagram-style Post Upload application built while learning Backend De
 - React
 - Vite
 - Axios
-- React Router DOM
+- CSS
 
 ### Backend
 - Node.js
@@ -38,42 +37,25 @@ A simple Instagram-style Post Upload application built while learning Backend De
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-Insta Post Project/
+Insta Post Project
 │
-├── Frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── Backend/
-│   ├── src/
-│   │   ├── db/
-│   │   ├── model/
-│   │   ├── services/
-│   │   └── app.js
-│   ├── server.js
-│   └── package.json
-│
+├── Backend
+├── Frontend
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/insta-post-project.git
-```
-
-Go to the project folder
+### Clone Repository
 
 ```bash
-cd insta-post-project
+git clone https://github.com/your-username/Insta_Image_post.git
 ```
 
 ### Install Frontend
@@ -92,9 +74,9 @@ npm install
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
-Create a `.env` file inside the **Backend** folder.
+Create a `.env` file inside the Backend folder.
 
 ```env
 MONGODB_URI=your_mongodb_uri
@@ -106,16 +88,16 @@ IMAGEKIT_URL_ENDPOINT=your_url_endpoint
 
 ---
 
-## ▶️ Run Backend
+## Run Project
+
+### Backend
 
 ```bash
 cd Backend
 node server.js
 ```
 
----
-
-## ▶️ Run Frontend
+### Frontend
 
 ```bash
 cd Frontend
@@ -124,31 +106,31 @@ npm run dev
 
 ---
 
-## 📚 What I Learned
+## Learning Outcomes
 
-- Express.js server setup
-- REST API development
-- MongoDB & Mongoose
-- File upload using Multer
-- Image hosting with ImageKit
-- Environment variables using dotenv
-- Connecting React with Backend using Axios
+- REST APIs
+- Express.js
+- MongoDB
+- Multer
+- Image Upload
+- ImageKit Integration
+- React with Axios
+- MERN Project Structure
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- Better UI/UX
-- Authentication (JWT)
-- Like & Comment functionality
+- Authentication
+- Like & Comment
+- Responsive UI
 - User Profiles
-- Responsive Design
 - Delete & Update Posts
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Deepanshu Kumar**
 
-Learning MERN Stack & Backend Development.
+Learning MERN Stack 🚀
